@@ -26,8 +26,8 @@ main
 {
     width: 75%;
     height: fit-content;
-
-    background-color: rgb(94, 94, 156);
+    background-color: rgb(244, 234, 212);
+    /*background-color: rgb(94, 94, 156);*/
 }
 .a-head
 {
@@ -111,4 +111,15 @@ main
 .a4-int li
 {
     list-style-type: none;
+}
+.b-header
+{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    color: thistle;
+}
+.b-main
+{
+    background-color: white;
 }
