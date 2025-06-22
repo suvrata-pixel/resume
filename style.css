@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.ma
+{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+aside
+{
+    width: 25%;
+    height: fit-content;
+    background-color: rgb(220, 211, 229);
+}    
+main
+{
+    width: 75%;
+    height: fit-content;
+
+    background-color: rgb(94, 94, 156);
+}
+.a-head
+{
+    display: inline-block;
+    border-bottom: 3px solid #333;
+    padding-bottom: 3px;
+    width: 185px;
+
+    
+    font-family: "Prosto One", sans-serif;
+    font-weight: 400;
+    font-style: normal;      
+    color: #333;
+}
+.a1-cont
+{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.a-des
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 5px;
+}
+.a-description
+{
+    display: flex;
+    gap: 8px;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+}
+.a-description img
+{
+    height: 18px;
+    width: 18px;
+
+}
+.a2-edu
+{
+    padding-top: 30px;
+    padding-left: 5px;
+}
+.a2-edu h5
+{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.a2-edu li
+{
+    list-style-type: none;
+}
+.a2-des  li
+{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.a2-des
+{
+    font-family: "Funnel Sans", sans-serif;
+    font-style: italic;
+}
+.a-des-gap
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.a3-lang
+{
+    padding-top: 30px;
+    padding-left: 5px;
+}
+.a4-int
+{
+    padding-top: 30px;
+    padding-left: 5px;
+}
+.a4-int li
+{
+    list-style-type: none;
+}
