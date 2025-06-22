@@ -19,16 +19,20 @@
 aside
 {
     width: 25%;
-    height: fit-content;
+    height: 839px;
     background-color: rgb(220, 211, 229);
 }    
 main
 {
     width: 75%;
-    height: fit-content;
-    background-color: rgb(254, 248, 236);
+    height: 839px;
+    background-color: white;
     /*background-color: rgb(244, 234, 212);
     /*background-color: rgb(94, 94, 156);*/
+}
+.a
+{
+    margin-top: 89px;
 }
 .a-head
 {
@@ -118,7 +122,9 @@ main
     padding-top: 20px;
     padding-left: 40px;
     padding-bottom: 20px;
-    color: rgb(220, 211, 229);
+    /*color: rgb(220, 211, 229);*/
+    color: rgb(43, 12, 73);
+    background-color: rgb(254, 248, 236);
 }
 .b-main
 {
@@ -161,8 +167,61 @@ main
 {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 20px;
+    row-gap: 20px;
+    column-gap: 50px;
     padding-top: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
+}
+.b-pr
+{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.b-pr-des
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+    gap: 15px;
+}
+.b-pr-head
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.b-pr-des
+{
+    font-style: italic;
+}
+.b-footer
+{
+    background-color: rgb(240, 235, 245);
+    margin-top: 20px;
+    padding-bottom: 6px;
+    padding-right: 10px;
+}
+.b-info
+{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.b-info-des
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 22px;
+    gap: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+fieldset
+{
+    border-radius: 10px;
+    padding-left: 10px;
+    border: solid 2px rgb(181, 165, 197);
+}
+legend
+{
+    font-family: "Prosto One", sans-serif;
 }
