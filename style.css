@@ -15,11 +15,12 @@
     display: flex;
     margin-left: 150px;
     margin-right: 150px;
+    position: relative;
 }
 aside
 {
     width: 25%;
-    height: 839px;
+    height: 891px;
     background-color: rgb(220, 211, 229);
 }    
 main
@@ -224,4 +225,25 @@ fieldset
 legend
 {
     font-family: "Prosto One", sans-serif;
+}
+
+
+@media (max-width: 768px)
+{
+    .ma
+    {
+        flex-direction: column;
+        margin: 10px;
+        gap: 250px;
+    }
+    aside
+    {
+        order: 2;
+        width: 100%;
+    }
+    main
+    {
+        order: 1;
+        width: 100%;
+    }
 }
